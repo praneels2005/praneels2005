@@ -1,58 +1,54 @@
-### **Rutgers CAIT – Rail & Transit**  
-**AI/ML Researcher** | Nov 2025 – Present  
-New Brunswick, NJ  
+# Praneel Pothukanuri
 
-- Designed a signal-light classification system using a fine-tuned ResNet101 trained on 1,000+ images  
-- Deployed a GPU-accelerated, Dockerized computer vision pipeline with DeepSORT tracking on live RTMP streams  
-- Implemented Kafka + AWS S3 backend for real-time event streaming and persistent storage of trespasser metadata  
+Computer Science and Data Science student at Rutgers University–New Brunswick. My work spans AWS infrastructure, full-stack development, and applied machine learning.
 
----
+## Experience
 
-### **Checkpoint Systems**  
-**Software Engineer Intern** | May 2025 – Aug 2025  
-Thorofare, NJ  
+### Maximus · Technical Architect Intern
+May–Aug 2026 · Princeton, NJ
 
-- Modernized Cockpit UI stack with React + TypeScript, accelerating RF-ID configuration for 10,000+ enterprise devices  
-- Standardized an agentic design-to-code workflow using LLMs to convert Figma mockups into production-ready TypeScript components aligned with firmware APIs, achieving 20% faster UI release cycles  
-- Optimized Linux system images on Rock Pi 4 Plus using Bash scripting, reducing image size by 25%  
+- Deployed 50+ synthetic canaries across a multi-tenant AWS architecture, reducing mean time to detect API outages by 92%. Used AWS SAM to provision canaries, least-privilege IAM roles, and environment-specific VPC configurations.
+- Built an AI agent that generated tenant canary scaffolding and cut tenant setup time by 94%.
+- Implemented request signature validation with Lambda and API Gateway, and built a multi-tenant document upload stack with CloudFormation, automated malware scanning, and S3 routing.
+- Built GitHub-triggered release pipelines with AWS CodePipeline and CodeBuild for Lambda and CloudFormation, reducing hands-on deployment effort by 90%.
 
----
+### Rutgers CAIT – Rail & Transit · AI/ML Researcher
+Nov 2025–May 2026 · New Brunswick, NJ
 
-### **CABPortal**  
-**Machine Learning Research Assistant** | Aug 2024 – Dec 2024  
-Ewing, NJ  
+- Fine-tuned ResNet-101 with PyTorch transfer learning and deployed the model across 10+ field locations.
+- Automated video collection and perceptual-hash deduplication to curate 1,000+ training images, reducing training noise by 40%.
+- Deployed a Dockerized computer vision pipeline with DeepSORT tracking on live RTMP streams and CUDA-accelerated inference.
 
-- Built a hybrid Python/PyTorch recommender system combining fine-tuned BERT embeddings, TF-IDF, and k-means clustering, improving faculty recommendation accuracy by 28%  
-- Engineered NLP pipelines to preprocess and classify 25,000+ research abstracts  
-- Co-authored a SIGCSE ’25 publication proposing a transformer-driven hybrid recommender system for cold-start environments  
+### Checkpoint Systems · Software Engineer Intern
+May–Aug 2025 · Thorofare, NJ
 
----
+- Modernized the Cockpit UI with React and TypeScript to streamline RFID configuration for 10,000+ enterprise devices.
+- Standardized an LLM-assisted workflow that turned Figma mockups into TypeScript components aligned with firmware APIs, speeding up UI release cycles by 20%.
+
+### CABPortal · Machine Learning Research Assistant
+Aug–Dec 2024 · Ewing, NJ
+
+- Built a Python and PyTorch recommender combining fine-tuned BERT embeddings, TF-IDF, and k-means clustering, improving faculty recommendation accuracy by 28%.
+- Built NLP pipelines to preprocess and classify 25,000+ research abstracts.
+- Co-authored a SIGCSE 2025 publication on a hybrid recommender for cold-start environments.
+
+## Projects
+
+- **PlaylistAI** — Built a React, TypeScript, and Flask app that turns natural-language prompts into personalized Spotify playlists using Gemini and 10+ Spotify API endpoints. Integrated Spotify OAuth 2.0, achieved 95% track match accuracy, and reduced generation latency by 80% by parallelizing API calls.
+- **Startup Idea Validator Agent** — Built a modular FastAPI agent with ChromaDB and retrieval-augmented generation for session memory. Pruned retrieved context to reduce LLM token usage by 30% and deployed the service on AWS EC2.
 
 ## Education
 
-**Rutgers University – New Brunswick**  
-**B.S. in Computer Science & Data Science**  
-**GPA:** 4.0 | **Graduation:** May 2027  
+**Rutgers University–New Brunswick** · B.S. in Computer Science and Data Science  
+GPA: 3.94 · Expected graduation: May 2027 · Planned M.S. start: Fall 2027
 
-**Relevant Coursework:**  
-Data Structures & Algorithms, Programming Languages, Intro to Data Science, Database Systems, Computer Architecture, Computer Networking, Linear Algebra II, Statistical Inference, Discrete Structures  
+**Coursework:** Data Structures & Algorithms, Principles of Programming Languages, Machine Learning Principles, Intro to Data Science, Database Systems, Computer Architecture, Computer Networking, Regression Methods, and Discrete Structures.
 
-**Certifications:**  
-- AWS Certified Cloud Practitioner  
-- Forage AWS Solutions Architecture  
+**Certifications and training:** AWS Certified Solutions Architect – Associate, AWS Certified Cloud Practitioner, and Forage AWS Solutions Architecture.
 
----
-<!--
-**praneels2005/praneels2005** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Technical Skills
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Languages:** Python, Java, C/C++, C#, JavaScript, TypeScript, SQL, HTML, CSS, R, MATLAB, PowerShell
+- **Frameworks and libraries:** React, Node.js, Spring Boot, Flask, FastAPI, Express, AngularJS, Cockpit, Tailwind CSS, PyTorch, TensorFlow, scikit-learn, NumPy, pandas, Matplotlib, OpenCV, Puppeteer, Selenium, jq
+- **Cloud and tooling:** AWS CLI, AWS SAM, Lambda, CloudFormation, CodePipeline, CodeBuild, CloudWatch, EC2, API Gateway, Elastic Load Balancing, Docker, Kubernetes, Terraform, Azure, GCP, GitHub, CI/CD, Splunk, Postman, Figma
+- **Databases:** MySQL, MongoDB, ChromaDB
